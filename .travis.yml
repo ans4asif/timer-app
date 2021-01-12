@@ -3,10 +3,10 @@ node_js: node
 cache:
   directories:
     - node_modules
-  # install:
-  # - yarn
+  install:
+   - npm
 script:
-  - npm install
+  
   - npm test
 env:
   - CI=true
