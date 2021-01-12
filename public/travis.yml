@@ -14,10 +14,10 @@ node_js:
  
  deploy:
  provider: netlify
- skip_cleanup: "true"
+ skip_cleanup: true
  domain: "https://timerr-app.netlify.app/"
 
-project: ./build
+project: ./build/
 
 on:
 branch: master
