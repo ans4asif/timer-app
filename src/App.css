@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.app-container{
+	background-color: aqua;
+	/* background-size: cover;
+	background-image: url("./sand.jpg");
+	position: fixed; */
+
+}
+.btn{
+	padding: 7px 29px 7px 24px;
+    background-color: #236f00;
+    color: white;
+    font-family: monospace;
+    font-size: larger;
+}
+.btn:hover{
+	background-color: rgb(9, 248, 61);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-stop:hover{
+	 background-color: rgb(240, 55, 9);
+}
+.btn-stop{
+	padding: 7px 29px 7px 24px;
+    background-color: #8d2005;
+    color: white;
+    font-family: monospace;
+    font-size: larger;
+}
+.dots{
+	font-size: 3em;
+}
+.text{
+	font-size: 4em;
+    font-family: monospace;
+    padding: 5px;
+}
+.Timer-btn{
+	position: absolute;
+    top: 40%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.bg{
+	background-size: cover;
+    position: fixed;
+}
+.box{
+	position: absolute;
+    left: 50%;
+    padding: 44px 244px;
+    top: 30%;
+    transform: translate(-50%, -50%);
+} 
+/* .time{
+	padding: 0px 12px;
+} */
+.name1{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width:594px){
+    .Timer-btn{
+        top:50%
+    }
 }
